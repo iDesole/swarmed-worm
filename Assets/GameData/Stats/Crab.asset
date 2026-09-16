@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 142f126985085704ea177a18e76d6f75, type: 3}
+  m_Name: Crab
+  m_EditorClassIdentifier: 
+  enemyName: Crab
+  description: 
+  category: 
+  sprite: {fileID: 1509695163642557096, guid: c05a63e1962d4734582b453d59de9764, type: 3}
+  displayScale: 1
+  tintColor: {r: 1, g: 1, b: 1, a: 1}
+  prefabOverride: {fileID: 0}
+  behaviorType: 0
+  maxHealth: 30
+  moveSpeed: 3.5
+  detectionRange: 8
+  attackRange: 1.8
+  aggression: 0.6
+  damage: 8
+  attackCooldown: 1.2
+  canBurrow: 0
+  burrowDuration: 2
+  burrowCooldown: 10
+  isRanged: 0
+  projectileSpeed: 12
+  knockbackResistance: 0.5
+  damageResistance: 0
+  role: 0
+  lootTable: {fileID: 0}

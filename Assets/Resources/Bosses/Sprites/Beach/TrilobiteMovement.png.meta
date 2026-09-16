@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: d2e3f4a5b6c74890a1bcdef234567890
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2362409321648244297
+    second: TrilobiteMovement_0
+  - first:
+      213: 8775194983305369772
+    second: TrilobiteMovement_1
+  - first:
+      213: -8671912301832787327
+    second: TrilobiteMovement_2
+  - first:
+      213: -3658867305074985817
+    second: TrilobiteMovement_3
+  - first:
+      213: 6236415288997012335
+    second: TrilobiteMovement_4
+  - first:
+      213: 498221637316881697
+    second: TrilobiteMovement_5
+  - first:
+      213: 5863206682477440549
+    second: TrilobiteMovement_6
+  - first:
+      213: 834110582418045245
+    second: TrilobiteMovement_7
+  - first:
+      213: -2411415792968216997
+    second: TrilobiteMovement_8
+  - first:
+      213: -8965757967662983883
+    second: TrilobiteMovement_9
+  - first:
+      213: -5573852229212679675
+    second: TrilobiteMovement_10
+  - first:
+      213: 7086681572022827068
+    second: TrilobiteMovement_11
+  - first:
+      213: 8707485871954242226
+    second: TrilobiteMovement_12
+  - first:
+      213: -7022635323955604607
+    second: TrilobiteMovement_13
+  - first:
+      213: -6101630979756546432
+    second: TrilobiteMovement_14
+  - first:
+      213: -7904519487202260675
+    second: TrilobiteMovement_15
+  - first:
+      213: 1457664967240082231
+    second: TrilobiteMovement_16
+  - first:
+      213: -8180421721230956806
+    second: TrilobiteMovement_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TrilobiteMovement_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1362
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9464aeee2c6f8c020800000000000000
+      internalID: 2362409321648244297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrilobiteMovement_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1282
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8d4b62851c7c970800000000000000
+      internalID: 8775194983305369772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrilobiteMovement_2
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1202
+        width: 61
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18aaaed05bd27a780800000000000000
+      internalID: -8671912301832787327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrilobiteMovement_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1122
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4f6b05297193dc0800000000000000
+      internalID: -3658867305074985817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrilobiteMovement_4
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1042
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f636b74d9a23c8650800000000000000
+      internalID: 6236415288997012335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrilobiteMovement_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 962
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12dafaf70f90ae600800000000000000
+      internalID: 498221637316881697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrilobiteMovement_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 882
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ea3c1c96b4e5150800000000000000
+      internalID: 5863206682477440549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrilobiteMovement_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 802
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39fb68c72b539b00800000000000000
+      internalID: 834110582418045245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrilobiteMovement_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 722
+        width: 61
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ecc5ecc1ee88ed0800000000000000
+      internalID: -2411415792968216997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrilobiteMovement_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 642
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535d15b81aa339380800000000000000
+      internalID: -8965757967662983883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrilobiteMovement_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 562
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5025247dde2b5a2b0800000000000000
+      internalID: -5573852229212679675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrilobiteMovement_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 482
+        width: 61
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c383ab8c753f85260800000000000000
+      internalID: 7086681572022827068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrilobiteMovement_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 402
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2baa09c244437d870800000000000000
+      internalID: 8707485871954242226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrilobiteMovement_13
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 322
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183148061669a8e90800000000000000
+      internalID: -7022635323955604607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrilobiteMovement_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 242
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086a715a3f6a25ba0800000000000000
+      internalID: -6101630979756546432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrilobiteMovement_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 162
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39082508618d4290800000000000000
+      internalID: -7904519487202260675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrilobiteMovement_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 82
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73360ed809aaa3410800000000000000
+      internalID: 1457664967240082231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrilobiteMovement_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2
+        width: 61
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6a32949cd497e80800000000000000
+      internalID: -8180421721230956806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TrilobiteMovement_0: 2362409321648244297
+      TrilobiteMovement_1: 8775194983305369772
+      TrilobiteMovement_10: -5573852229212679675
+      TrilobiteMovement_11: 7086681572022827068
+      TrilobiteMovement_12: 8707485871954242226
+      TrilobiteMovement_13: -7022635323955604607
+      TrilobiteMovement_14: -6101630979756546432
+      TrilobiteMovement_15: -7904519487202260675
+      TrilobiteMovement_16: 1457664967240082231
+      TrilobiteMovement_17: -8180421721230956806
+      TrilobiteMovement_2: -8671912301832787327
+      TrilobiteMovement_3: -3658867305074985817
+      TrilobiteMovement_4: 6236415288997012335
+      TrilobiteMovement_5: 498221637316881697
+      TrilobiteMovement_6: 5863206682477440549
+      TrilobiteMovement_7: 834110582418045245
+      TrilobiteMovement_8: -2411415792968216997
+      TrilobiteMovement_9: -8965757967662983883
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

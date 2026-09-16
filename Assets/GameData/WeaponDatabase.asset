@@ -1,0 +1,685 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf7913faa2704a35bd983364d59be10a, type: 3}
+  m_Name: WeaponDatabase
+  m_EditorClassIdentifier: 
+  projectileWeapons:
+  - core:
+      weaponName: AR
+      shopPrice: 300
+      shopSprite: {fileID: 0}
+      sprite: {fileID: -3575081920405922750, guid: f9c093ab50c7d114c95970a3b4889a01, type: 3}
+      displayScale: 0.5
+      damage: 10
+      attackSpeed: 10
+      range: 12
+      critChance: 0.05
+      critMultiplier: 1.5
+      knockback: 2
+      aimPitchOffset: -25
+      elementProfile:
+        elements: 4
+        electric:
+          shockDamageMultiplier: 0.35
+          chainRange: 5
+          maxChainTargets: 4
+          chainDamageFalloff: 0.25
+          shockDuration: 3
+          shockStacksPerHit: 1
+          stacksToJolt: 4
+          joltDuration: 0.6
+        fire:
+          burnDamageMultiplier: 0.2
+          burnTickInterval: 0.5
+          burnDuration: 3
+          burnStacksPerHit: 1
+          stacksToIncinerate: 5
+          spreadRadius: 3
+          maxBurnCount: 4
+        ice:
+          slowDuration: 3
+          slowStacksPerHit: 1
+          stacksToFreeze: 3
+          slowPerStack: 0.12
+          freezeDuration: 4
+          spreadRadius: 3
+          spreadSlowStacks: 2
+          maxSpreadTargets: 4
+        poison:
+          poisonDuration: 6
+          poisonStacksPerHit: 1
+          stacksToSpread: 4
+          slowPerStack: 0.1
+          spreadRadius: 3
+          maxPoisonCount: 3
+        voidEffect:
+          voidDamageMultiplier: 0.2
+          voidTickInterval: 0.5
+          collapseDuration: 3
+          pullRadius: 4
+          pullStrength: 7
+          maxPullTargets: 6
+          maxVoidCount: 2
+    projectileSprite: {fileID: -7868380608748047921, guid: 59e55a30e1ae42a4f87675d5c190390d, type: 3}
+    projectileSpeed: 25
+    projectileCount: 1
+    spreadAngle: 0
+    pierceCount: 0
+    bounceCount: 0
+    homingStrength: 0
+    projectileSize: 1
+    projectileVerticalOffset: 0
+    projectilePitchOffset: 0
+    explodeOnHit: 0
+    explosionRadius: 2
+    explosionInitialDamage: 10
+    explosionRadiusDamage: 5
+    explosionPulseCount: 3
+    explosionPulseSpacing: 0.75
+    projectileGravityScale: 0
+  - core:
+      weaponName: Bow
+      shopPrice: 0
+      shopSprite: {fileID: 0}
+      sprite: {fileID: -7856493677412862020, guid: 4b9953115ea131147a8c527b23531c61, type: 3}
+      displayScale: 0.5
+      damage: 20
+      attackSpeed: 2
+      range: 12
+      critChance: 0.05
+      critMultiplier: 1.5
+      knockback: 2
+      aimPitchOffset: 0
+      elementProfile:
+        elements: 0
+        electric:
+          shockDamageMultiplier: 0.35
+          chainRange: 5
+          maxChainTargets: 4
+          chainDamageFalloff: 0.25
+          shockDuration: 3
+          shockStacksPerHit: 1
+          stacksToJolt: 4
+          joltDuration: 0.6
+        fire:
+          burnDamageMultiplier: 0.2
+          burnTickInterval: 0.5
+          burnDuration: 3
+          burnStacksPerHit: 1
+          stacksToIncinerate: 5
+          spreadRadius: 3
+          maxBurnCount: 4
+        ice:
+          slowDuration: 3
+          slowStacksPerHit: 1
+          stacksToFreeze: 5
+          slowPerStack: 0.12
+          freezeDuration: 4
+          spreadRadius: 3
+          spreadSlowStacks: 2
+          maxSpreadTargets: 4
+        poison:
+          poisonDuration: 6
+          poisonStacksPerHit: 1
+          stacksToSpread: 4
+          slowPerStack: 0.1
+          spreadRadius: 3
+          maxPoisonCount: 3
+        voidEffect:
+          voidDamageMultiplier: 0.2
+          voidTickInterval: 0.5
+          collapseDuration: 3
+          pullRadius: 4
+          pullStrength: 7
+          maxPullTargets: 6
+          maxVoidCount: 2
+    projectileSprite: {fileID: -4346244404228752641, guid: e3850e917d5f48842a5d0187556eee81, type: 3}
+    projectileSpeed: 12
+    projectileCount: 1
+    spreadAngle: 0
+    pierceCount: 0
+    bounceCount: 0
+    homingStrength: 0
+    projectileSize: 1
+    projectileVerticalOffset: 0
+    projectilePitchOffset: 0
+    explodeOnHit: 0
+    explosionRadius: 2
+    explosionInitialDamage: 10
+    explosionRadiusDamage: 5
+    explosionPulseCount: 3
+    explosionPulseSpacing: 0.75
+    projectileGravityScale: 0
+  - core:
+      weaponName: Bubble Gun
+      shopPrice: 250
+      shopSprite: {fileID: -5370693883842997314, guid: 0c96283a2bfde944783ac4a0c2e61815, type: 3}
+      sprite: {fileID: -5370693883842997314, guid: 0c96283a2bfde944783ac4a0c2e61815, type: 3}
+      displayScale: 0.4
+      damage: 20
+      attackSpeed: 5
+      range: 12
+      critChance: 0.05
+      critMultiplier: 1.5
+      knockback: 2
+      aimPitchOffset: 0
+      elementProfile:
+        elements: 0
+        electric:
+          shockDamageMultiplier: 0.35
+          chainRange: 5
+          maxChainTargets: 4
+          chainDamageFalloff: 0.25
+          shockDuration: 3
+          shockStacksPerHit: 1
+          stacksToJolt: 4
+          joltDuration: 0.6
+        fire:
+          burnDamageMultiplier: 0.2
+          burnTickInterval: 0.5
+          burnDuration: 3
+          burnStacksPerHit: 1
+          stacksToIncinerate: 5
+          spreadRadius: 3
+          maxBurnCount: 4
+        ice:
+          slowDuration: 3
+          slowStacksPerHit: 1
+          stacksToFreeze: 5
+          slowPerStack: 0.12
+          freezeDuration: 4
+          spreadRadius: 3
+          spreadSlowStacks: 2
+          maxSpreadTargets: 4
+        poison:
+          poisonDuration: 6
+          poisonStacksPerHit: 1
+          stacksToSpread: 4
+          slowPerStack: 0.1
+          spreadRadius: 3
+          maxPoisonCount: 3
+        voidEffect:
+          voidDamageMultiplier: 0.2
+          voidTickInterval: 0.5
+          collapseDuration: 3
+          pullRadius: 4
+          pullStrength: 7
+          maxPullTargets: 6
+          maxVoidCount: 2
+    projectileSprite: {fileID: 4078796110908485188, guid: 531014c83b719a94184ce521cbe7ffa7, type: 3}
+    projectileSpeed: 5
+    projectileCount: 4
+    spreadAngle: 6
+    pierceCount: 4
+    bounceCount: 1
+    homingStrength: 0
+    projectileSize: 1
+    projectileVerticalOffset: 0
+    projectilePitchOffset: 0
+    explodeOnHit: 1
+    explosionRadius: 2
+    explosionInitialDamage: 1
+    explosionRadiusDamage: 5
+    explosionPulseCount: 1
+    explosionPulseSpacing: 0.75
+    projectileGravityScale: -0.4
+  - core:
+      weaponName: Grenade
+      shopPrice: 250
+      shopSprite: {fileID: 7374725294872216382, guid: 4db4cf696a2aea240a234954ddb95e94, type: 3}
+      sprite: {fileID: 7374725294872216382, guid: 4db4cf696a2aea240a234954ddb95e94, type: 3}
+      displayScale: 0.4
+      damage: 50
+      attackSpeed: 5
+      range: 12
+      critChance: 0.05
+      critMultiplier: 1.5
+      knockback: 2
+      aimPitchOffset: 0
+      elementProfile:
+        elements: 0
+        electric:
+          shockDamageMultiplier: 0.35
+          chainRange: 5
+          maxChainTargets: 4
+          chainDamageFalloff: 0.25
+          shockDuration: 3
+          shockStacksPerHit: 1
+          stacksToJolt: 4
+          joltDuration: 0.6
+        fire:
+          burnDamageMultiplier: 0.2
+          burnTickInterval: 0.5
+          burnDuration: 3
+          burnStacksPerHit: 1
+          stacksToIncinerate: 5
+          spreadRadius: 3
+          maxBurnCount: 4
+        ice:
+          slowDuration: 3
+          slowStacksPerHit: 1
+          stacksToFreeze: 5
+          slowPerStack: 0.12
+          freezeDuration: 4
+          spreadRadius: 3
+          spreadSlowStacks: 2
+          maxSpreadTargets: 4
+        poison:
+          poisonDuration: 6
+          poisonStacksPerHit: 1
+          stacksToSpread: 4
+          slowPerStack: 0.1
+          spreadRadius: 3
+          maxPoisonCount: 3
+        voidEffect:
+          voidDamageMultiplier: 0.2
+          voidTickInterval: 0.5
+          collapseDuration: 3
+          pullRadius: 4
+          pullStrength: 7
+          maxPullTargets: 6
+          maxVoidCount: 2
+    projectileSprite: {fileID: 7374725294872216382, guid: 4db4cf696a2aea240a234954ddb95e94, type: 3}
+    projectileSpeed: 6
+    projectileCount: 1
+    spreadAngle: 0
+    pierceCount: 0
+    bounceCount: 0
+    homingStrength: 0
+    projectileSize: 1
+    projectileVerticalOffset: 0
+    projectilePitchOffset: 0
+    explodeOnHit: 1
+    explosionRadius: 5
+    explosionInitialDamage: 20
+    explosionRadiusDamage: 100
+    explosionPulseCount: 1
+    explosionPulseSpacing: 0.75
+    projectileGravityScale: 0
+  meleeWeapons:
+  - core:
+      weaponName: Electric Sword
+      shopPrice: 0
+      shopSprite: {fileID: 0}
+      sprite: {fileID: -4790184005181186483, guid: d85b0a725a230f74cb27b8afc46bb99a, type: 3}
+      displayScale: 0.5
+      damage: 10
+      attackSpeed: 2
+      range: 10
+      critChance: 1
+      critMultiplier: 2
+      knockback: 2
+      aimPitchOffset: 0
+      elementProfile:
+        elements: 8
+        electric:
+          shockDamageMultiplier: 0.35
+          chainRange: 5
+          maxChainTargets: 4
+          chainDamageFalloff: 0.25
+          shockDuration: 3
+          shockStacksPerHit: 2
+          stacksToJolt: 4
+          joltDuration: 0.6
+        fire:
+          burnDamageMultiplier: 0.2
+          burnTickInterval: 0.5
+          burnDuration: 3
+          burnStacksPerHit: 1
+          stacksToIncinerate: 5
+          spreadRadius: 3
+          maxBurnCount: 4
+        ice:
+          slowDuration: 3
+          slowStacksPerHit: 1
+          stacksToFreeze: 5
+          slowPerStack: 0.12
+          freezeDuration: 4
+          spreadRadius: 3
+          spreadSlowStacks: 2
+          maxSpreadTargets: 4
+        poison:
+          poisonDuration: 6
+          poisonStacksPerHit: 1
+          stacksToSpread: 4
+          slowPerStack: 0.1
+          spreadRadius: 3
+          maxPoisonCount: 3
+        voidEffect:
+          voidDamageMultiplier: 0.2
+          voidTickInterval: 0.5
+          collapseDuration: 3
+          pullRadius: 4
+          pullStrength: 7
+          maxPullTargets: 6
+          maxVoidCount: 2
+    swingDuration: 1
+    swingRadius: 2
+    swingsPerAttack: 0
+    swingArcAngle: 0
+    multiHitCount: 0
+    lifesteal: 0
+  - core:
+      weaponName: Fire Sword
+      shopPrice: 0
+      shopSprite: {fileID: 0}
+      sprite: {fileID: 712035800519618848, guid: b4b064b50820b9a439a66c3bfef206f6, type: 3}
+      displayScale: 0.5
+      damage: 10
+      attackSpeed: 2
+      range: 10
+      critChance: 1
+      critMultiplier: 2
+      knockback: 2
+      aimPitchOffset: 0
+      elementProfile:
+        elements: 2
+        electric:
+          shockDamageMultiplier: 0.35
+          chainRange: 5
+          maxChainTargets: 4
+          chainDamageFalloff: 0.25
+          shockDuration: 3
+          shockStacksPerHit: 1
+          stacksToJolt: 4
+          joltDuration: 0.6
+        fire:
+          burnDamageMultiplier: 0.2
+          burnTickInterval: 0.5
+          burnDuration: 2
+          burnStacksPerHit: 1
+          stacksToIncinerate: 2
+          spreadRadius: 3
+          maxBurnCount: 4
+        ice:
+          slowDuration: 3
+          slowStacksPerHit: 1
+          stacksToFreeze: 5
+          slowPerStack: 0.12
+          freezeDuration: 4
+          spreadRadius: 3
+          spreadSlowStacks: 2
+          maxSpreadTargets: 4
+        poison:
+          poisonDuration: 6
+          poisonStacksPerHit: 1
+          stacksToSpread: 4
+          slowPerStack: 0.1
+          spreadRadius: 3
+          maxPoisonCount: 3
+        voidEffect:
+          voidDamageMultiplier: 0.2
+          voidTickInterval: 0.5
+          collapseDuration: 3
+          pullRadius: 4
+          pullStrength: 7
+          maxPullTargets: 6
+          maxVoidCount: 2
+    swingDuration: 1
+    swingRadius: 2
+    swingsPerAttack: 0
+    swingArcAngle: 0
+    multiHitCount: 0
+    lifesteal: 0
+  - core:
+      weaponName: Frozen Sword
+      shopPrice: 0
+      shopSprite: {fileID: 0}
+      sprite: {fileID: 712035800519618848, guid: b4b064b50820b9a439a66c3bfef206f6, type: 3}
+      displayScale: 0.5
+      damage: 10
+      attackSpeed: 2
+      range: 10
+      critChance: 1
+      critMultiplier: 2
+      knockback: 2
+      aimPitchOffset: 0
+      elementProfile:
+        elements: 4
+        electric:
+          shockDamageMultiplier: 0.35
+          chainRange: 5
+          maxChainTargets: 4
+          chainDamageFalloff: 0.25
+          shockDuration: 3
+          shockStacksPerHit: 1
+          stacksToJolt: 4
+          joltDuration: 0.6
+        fire:
+          burnDamageMultiplier: 0.2
+          burnTickInterval: 0.5
+          burnDuration: 2
+          burnStacksPerHit: 1
+          stacksToIncinerate: 2
+          spreadRadius: 3
+          maxBurnCount: 4
+        ice:
+          slowDuration: 3
+          slowStacksPerHit: 2
+          stacksToFreeze: 3
+          slowPerStack: 0.12
+          freezeDuration: 4
+          spreadRadius: 3
+          spreadSlowStacks: 2
+          maxSpreadTargets: 4
+        poison:
+          poisonDuration: 6
+          poisonStacksPerHit: 1
+          stacksToSpread: 4
+          slowPerStack: 0.1
+          spreadRadius: 3
+          maxPoisonCount: 3
+        voidEffect:
+          voidDamageMultiplier: 0.2
+          voidTickInterval: 0.5
+          collapseDuration: 3
+          pullRadius: 4
+          pullStrength: 7
+          maxPullTargets: 6
+          maxVoidCount: 2
+    swingDuration: 1
+    swingRadius: 2
+    swingsPerAttack: 0
+    swingArcAngle: 0
+    multiHitCount: 0
+    lifesteal: 0
+  - core:
+      weaponName: Poison Sword
+      shopPrice: 0
+      shopSprite: {fileID: 0}
+      sprite: {fileID: 712035800519618848, guid: b4b064b50820b9a439a66c3bfef206f6, type: 3}
+      displayScale: 0.5
+      damage: 10
+      attackSpeed: 2
+      range: 10
+      critChance: 1
+      critMultiplier: 2
+      knockback: 2
+      aimPitchOffset: 0
+      elementProfile:
+        elements: 1
+        electric:
+          shockDamageMultiplier: 0.35
+          chainRange: 5
+          maxChainTargets: 4
+          chainDamageFalloff: 0.25
+          shockDuration: 3
+          shockStacksPerHit: 1
+          stacksToJolt: 4
+          joltDuration: 0.6
+        fire:
+          burnDamageMultiplier: 0.2
+          burnTickInterval: 0.5
+          burnDuration: 2
+          burnStacksPerHit: 1
+          stacksToIncinerate: 2
+          spreadRadius: 3
+          maxBurnCount: 4
+        ice:
+          slowDuration: 3
+          slowStacksPerHit: 2
+          stacksToFreeze: 3
+          slowPerStack: 0.12
+          freezeDuration: 4
+          spreadRadius: 3
+          spreadSlowStacks: 2
+          maxSpreadTargets: 4
+        poison:
+          poisonDuration: 6
+          poisonStacksPerHit: 1
+          stacksToSpread: 4
+          slowPerStack: 0.1
+          spreadRadius: 3
+          maxPoisonCount: 3
+        voidEffect:
+          voidDamageMultiplier: 0.2
+          voidTickInterval: 0.5
+          collapseDuration: 3
+          pullRadius: 4
+          pullStrength: 7
+          maxPullTargets: 6
+          maxVoidCount: 2
+    swingDuration: 1
+    swingRadius: 2
+    swingsPerAttack: 0
+    swingArcAngle: 0
+    multiHitCount: 0
+    lifesteal: 0
+  - core:
+      weaponName: Void Sword
+      shopPrice: 0
+      shopSprite: {fileID: 0}
+      sprite: {fileID: 712035800519618848, guid: b4b064b50820b9a439a66c3bfef206f6, type: 3}
+      displayScale: 0.5
+      damage: 10
+      attackSpeed: 2
+      range: 10
+      critChance: 1
+      critMultiplier: 2
+      knockback: 2
+      aimPitchOffset: 0
+      elementProfile:
+        elements: 16
+        electric:
+          shockDamageMultiplier: 0.35
+          chainRange: 5
+          maxChainTargets: 4
+          chainDamageFalloff: 0.25
+          shockDuration: 3
+          shockStacksPerHit: 1
+          stacksToJolt: 4
+          joltDuration: 0.6
+        fire:
+          burnDamageMultiplier: 0.2
+          burnTickInterval: 0.5
+          burnDuration: 2
+          burnStacksPerHit: 1
+          stacksToIncinerate: 2
+          spreadRadius: 3
+          maxBurnCount: 4
+        ice:
+          slowDuration: 3
+          slowStacksPerHit: 2
+          stacksToFreeze: 3
+          slowPerStack: 0.12
+          freezeDuration: 4
+          spreadRadius: 3
+          spreadSlowStacks: 2
+          maxSpreadTargets: 4
+        poison:
+          poisonDuration: 6
+          poisonStacksPerHit: 1
+          stacksToSpread: 4
+          slowPerStack: 0.1
+          spreadRadius: 3
+          maxPoisonCount: 3
+        voidEffect:
+          voidDamageMultiplier: 0.2
+          voidTickInterval: 0.5
+          collapseDuration: 3
+          pullRadius: 4
+          pullStrength: 7
+          maxPullTargets: 6
+          maxVoidCount: 2
+    swingDuration: 1
+    swingRadius: 2
+    swingsPerAttack: 0
+    swingArcAngle: 0
+    multiHitCount: 0
+    lifesteal: 0
+  summonWeapons:
+  - core:
+      weaponName: Fire Wisp
+      shopPrice: 0
+      shopSprite: {fileID: 0}
+      sprite: {fileID: 0}
+      displayScale: 0.01
+      damage: 0
+      attackSpeed: 0
+      range: 0
+      critChance: 0
+      critMultiplier: 0
+      knockback: 0
+      aimPitchOffset: 0
+      elementProfile:
+        elements: 0
+        electric:
+          shockDamageMultiplier: 0.35
+          chainRange: 5
+          maxChainTargets: 4
+          chainDamageFalloff: 0.25
+          shockDuration: 3
+          shockStacksPerHit: 1
+          stacksToJolt: 4
+          joltDuration: 0.6
+        fire:
+          burnDamageMultiplier: 0.2
+          burnTickInterval: 0.5
+          burnDuration: 3
+          burnStacksPerHit: 1
+          stacksToIncinerate: 5
+          spreadRadius: 3
+          maxBurnCount: 4
+        ice:
+          slowDuration: 3
+          slowStacksPerHit: 1
+          stacksToFreeze: 5
+          slowPerStack: 0.12
+          freezeDuration: 4
+          spreadRadius: 3
+          spreadSlowStacks: 2
+          maxSpreadTargets: 4
+        poison:
+          poisonDuration: 6
+          poisonStacksPerHit: 1
+          stacksToSpread: 4
+          slowPerStack: 0.1
+          spreadRadius: 3
+          maxPoisonCount: 3
+        voidEffect:
+          voidDamageMultiplier: 0.2
+          voidTickInterval: 0.5
+          collapseDuration: 3
+          pullRadius: 4
+          pullStrength: 7
+          maxPullTargets: 6
+          maxVoidCount: 2
+    summonPrefabs: []
+    maxActiveSummons: 0
+    summonLifetime: 0
+    summonRange: 0
+    summonDamageMultiplier: 0
+    summonHealthMultiplier: 0
+    summonAttackSpeedMultiplier: 0
+    summonsPerCast: 0
+  defaultProjectilePrefab: {fileID: 5190716567729418095, guid: 6c4129bd66687c2409c2727c45082030, type: 3}
+  defaultMeleeHitboxPrefab: {fileID: 5366750877099595587, guid: 2105217eba20792489fcc790f4426e5f, type: 3}

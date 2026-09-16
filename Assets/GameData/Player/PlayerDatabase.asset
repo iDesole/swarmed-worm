@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f4e2a91c6d34b10a9e7f5c2d8b14e63, type: 3}
+  m_Name: PlayerDatabase
+  m_EditorClassIdentifier: 
+  characters:
+  - spawnPosition: {x: 0, y: 0, z: 0}
+    core:
+      characterName: Worm
+      sprite: {fileID: -7386057915804710380, guid: 25e0fb6dddcbdd14d931826dc22d498f, type: 3}
+      displayScale: 2
+      tintColor: {r: 1, g: 1, b: 1, a: 1}
+      maxHealth: 100
+      maxShield: 50
+      shieldRegenRate: 5
+      moveSpeed: 6
+      dodgeSpeedMultiplier: 1.5
+      attackSpeedMultiplier: 1
+      critChance: 0.05
+      critDamageMultiplier: 1.5
+      damageMultiplier: 1
+      burrowDuration: 3
+      burrowCooldown: 8
+      burrowDamageReduction: 1
+      knockbackResistance: 0
+      lifesteal: 0
+      invulnerabilityFrames: 0.1
+    startingWeapon:
+      type: 0
+      index: 0
+    defaultInventory: {fileID: 0}
+    handSlots:
+    - localPosition: {x: 0.07, y: -0.33, z: 0}
+      startingWeapon:
+        type: 0
+        index: 0
+    - localPosition: {x: 0.6, y: -0.31, z: 0}
+      startingWeapon:
+        type: 3
+        index: -1
+    - localPosition: {x: 0, y: -0.53, z: 0}
+      startingWeapon:
+        type: 3
+        index: -1
+    - localPosition: {x: 0.6, y: -0.58, z: 0}
+      startingWeapon:
+        type: 3
+        index: -1
+    - localPosition: {x: -0.58, y: -0.38, z: 0}
+      startingWeapon:
+        type: 3
+        index: -1
+    enemySpawner:
+      attachToPlayer: 1
+      localOffset: {x: 0, y: 0, z: 0}
+      maxSpawnAttempts: 200
+      showSpawnRings: 0
+  defaultCharacterIndex: 0

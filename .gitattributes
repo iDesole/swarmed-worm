@@ -1,0 +1,78 @@
+# Normalize line endings
+* text=auto eol=lf
+
+# C# / Unity text
+*.cs text diff=csharp
+*.shader text
+*.cginc text
+*.hlsl text
+*.compute text
+*.shadergraph text
+*.shadersubgraph text
+*.json text
+*.xml text
+*.txt text
+*.md text
+*.inputactions text
+*.asmdef text
+*.asmref text
+*.rsp text
+
+# Unity YAML (keep as text so diffs stay readable)
+*.meta text
+*.unity text
+*.prefab text
+*.asset text
+*.mat text
+*.anim text
+*.controller text
+*.overrideController text
+*.physicMaterial text
+*.physicsMaterial2D text
+*.mask text
+*.brush text
+*.flare text
+*.fontsettings text
+*.guiskin text
+*.giparams text
+*.playable text
+*.signal text
+*.preset text
+*.spriteatlas text
+*.spriteatlasv2 text
+*.terrainlayer text
+*.mixer text
+*.scenetemplate text
+
+# Binaries
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.tga binary
+*.tif binary
+*.tiff binary
+*.psd binary
+*.exr binary
+*.hdr binary
+*.ttf binary
+*.otf binary
+*.dll binary
+*.pdb binary
+*.mdb binary
+*.so binary
+*.dylib binary
+*.a binary
+*.lib binary
+*.mp3 binary
+*.ogg binary
+*.wav binary
+*.mp4 binary
+*.mov binary
+*.fbx binary
+*.obj binary
+*.blend binary
+*.aseprite binary
+*.zip binary
+*.7z binary
+*.unitypackage binary

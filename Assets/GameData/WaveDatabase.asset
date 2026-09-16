@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad72be0b960387643a7ed8048f0a9e41, type: 3}
+  m_Name: WaveDatabase
+  m_EditorClassIdentifier: 
+  enemyDatabase: {fileID: 11400000, guid: c7d8e9f0a1b234567890abcdef123456, type: 2}
+  bossDatabase: {fileID: 11400000, guid: 2533cf6910e24cf4a88b3fcb3b6323b4, type: 2}
+  environments:
+  - environmentName: Lobby
+    environmentPrefab: {fileID: 4462057781688988831, guid: c745184fe663e804eb60ddc3557d8a16, type: 3}
+    mapSpawnPosition: {x: 0, y: 0, z: 0}
+    isHubEnvironment: 1
+    useCustomPlayerSpawn: 1
+    playerSpawnPosition: {x: 0, y: 0, z: 0}
+    enemies: []
+  - environmentName: Beach
+    environmentPrefab: {fileID: 8959223064860828548, guid: eb27981ffd8d95e459cfa9c8dc8d3427, type: 3}
+    mapSpawnPosition: {x: 0, y: 0, z: -1}
+    isHubEnvironment: 0
+    useCustomPlayerSpawn: 1
+    playerSpawnPosition: {x: 0, y: 0, z: 1}
+    enemies:
+    - spawnKind: 0
+      enemy:
+        category: 0
+        index: 0
+      boss:
+        index: 0
+      spawnRange: 2
+      setLocationOffset: {x: 0, y: 0}
+      spawnOnAllWaves: 1
+      specificWaves: 
+      minSpawnInterval: 1
+      maxSpawnInterval: 1
+      spawnWeight: 2
+      healthMultiplier: 1
+      damageMultiplier: 1
+      sizeMultiplier: 1
+    - spawnKind: 0
+      enemy:
+        category: 1
+        index: 0
+      boss:
+        index: 0
+      spawnRange: 3
+      setLocationOffset: {x: 0, y: 0}
+      spawnOnAllWaves: 0
+      specificWaves: 020000000400000006000000
+      minSpawnInterval: 4
+      maxSpawnInterval: 7
+      spawnWeight: 1
+      healthMultiplier: 1
+      damageMultiplier: 1
+      sizeMultiplier: 1
+  - environmentName: Training
+    environmentPrefab: {fileID: 0, guid: 9c814ac9ea00fdcaa90c5d76438c04ec, type: 3}
+    mapSpawnPosition: {x: 0, y: 0, z: 0}
+    isHubEnvironment: 0
+    useCustomPlayerSpawn: 1
+    playerSpawnPosition: {x: 0, y: 0, z: 0}
+    enemies:
+    - spawnKind: 0
+      enemy:
+        category: 0
+        index: 0
+      boss:
+        index: 0
+      spawnRange: 2
+      setLocationOffset: {x: 0, y: 0}
+      spawnOnAllWaves: 1
+      specificWaves: 
+      minSpawnInterval: 3
+      maxSpawnInterval: 5
+      spawnWeight: 1
+      healthMultiplier: 1
+      damageMultiplier: 1
+      sizeMultiplier: 1
+  activeEnvironmentIndex: 1
+  schedule:
+    waveRanges:
+    - waveCount: 6
+      healthMultiplier: 1
+      damageMultiplier: 1
+      spawnCountMultiplier: 1
+      spawnRateMultiplier: 1
+    killCountWeight: 50
+    survivalWeight: 50
+  settings:
+    timedDuration: 90
+    killTargetMin: 9
+    killTargetMax: 13
+  spawnRangeBands:
+    closeMin: 6
+    closeMax: 10
+    nearbyMin: 10
+    nearbyMax: 14
+    mediumMin: 14
+    mediumMax: 18
+    farMin: 18
+    farMax: 22
+    superFarMin: 22
+    superFarMax: 28
+  difficultyScale: 1

@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f4e2a91c6d34b10a9e7f5c2d8b14e63, type: 3}
+  m_Name: PlayerDatabase
+  m_EditorClassIdentifier: 
+  characters:
+  - spawnPosition: {x: 0, y: 0, z: 0}
+    core:
+      characterName: Alien Worm
+      shopPrice: 0
+      shopSprite: {fileID: -5190139834197335426, guid: 25e0fb6dddcbdd14d931826dc22d498f, type: 3}
+      sprite: {fileID: 335605302216781056, guid: af81bb86dd7b22d45a5fea69c813c67f, type: 3}
+      displayScale: 2
+      tintColor: {r: 1, g: 1, b: 1, a: 1}
+      maxHealth: 100
+      maxShield: 50
+      shieldRegenRate: 0
+      moveSpeed: 5
+      dodgeSpeedMultiplier: 0
+      attackSpeedMultiplier: 0.1
+      critChance: 0
+      critDamageMultiplier: 1
+      damageMultiplier: 0
+      burrowDuration: 3
+      burrowCooldown: 5
+      burrowDamageReduction: 0
+      knockbackResistance: 0
+      lifesteal: 0
+      invulnerabilityFrames: 0
+    startingWeapon:
+      type: 0
+      index: 3
+    handSlots:
+    - localPosition: {x: 0.42, y: -0.18, z: 0}
+      startingWeapon:
+        type: 0
+        index: 3
+    - localPosition: {x: 0.6, y: -0.31, z: 0}
+      startingWeapon:
+        type: 3
+        index: -1
+    - localPosition: {x: 0, y: -0.53, z: 0}
+      startingWeapon:
+        type: 3
+        index: -1
+    - localPosition: {x: 0.6, y: -0.58, z: 0}
+      startingWeapon:
+        type: 3
+        index: -1
+    - localPosition: {x: -0.58, y: -0.38, z: 0}
+      startingWeapon:
+        type: 3
+        index: -1
+    enemySpawner:
+      attachToPlayer: 1
+      localOffset: {x: 0, y: 0, z: 0}
+      maxSpawnAttempts: 24
+      showSpawnRings: 0
+    animationClips:
+    - title: Walk
+      frames:
+      - {fileID: -5190139834197335426, guid: 25e0fb6dddcbdd14d931826dc22d498f, type: 3}
+      - {fileID: -7386057915804710380, guid: 25e0fb6dddcbdd14d931826dc22d498f, type: 3}
+      - {fileID: -5706668783931947407, guid: 25e0fb6dddcbdd14d931826dc22d498f, type: 3}
+      framesPerSecond: 8
+      loop: 1
+    - title: Injured
+      frames:
+      - {fileID: 5423970603139293441, guid: 01ee1aa6979a43b4bbb9793a4ed2b987, type: 3}
+      - {fileID: -3812364122295627997, guid: 01ee1aa6979a43b4bbb9793a4ed2b987, type: 3}
+      - {fileID: 4673953758107927311, guid: 01ee1aa6979a43b4bbb9793a4ed2b987, type: 3}
+      framesPerSecond: 10
+      loop: 0
+    - title: BurrowDown
+      frames:
+      - {fileID: 8430580166434273205, guid: 1e4351b6f8509dc4387843d44417e884, type: 3}
+      - {fileID: 6557598363480745924, guid: 1e4351b6f8509dc4387843d44417e884, type: 3}
+      - {fileID: 8839924388806431556, guid: 1e4351b6f8509dc4387843d44417e884, type: 3}
+      framesPerSecond: 8
+      loop: 0
+    - title: Burrowed
+      frames:
+      - {fileID: 8839924388806431556, guid: 1e4351b6f8509dc4387843d44417e884, type: 3}
+      framesPerSecond: 1
+      loop: 1
+    - title: BurrowUp
+      frames:
+      - {fileID: 8839924388806431556, guid: 1e4351b6f8509dc4387843d44417e884, type: 3}
+      - {fileID: 5852194682478073753, guid: 1e4351b6f8509dc4387843d44417e884, type: 3}
+      - {fileID: -7508351948161114387, guid: 1e4351b6f8509dc4387843d44417e884, type: 3}
+      framesPerSecond: 8
+      loop: 0
+    - title: Death
+      frames:
+      - {fileID: -1886779672, guid: dace9df2e8d69064bb939780f7279a1c, type: 3}
+      - {fileID: 821224245, guid: dace9df2e8d69064bb939780f7279a1c, type: 3}
+      - {fileID: -948443931, guid: dace9df2e8d69064bb939780f7279a1c, type: 3}
+      framesPerSecond: 3
+      loop: 0
+  - spawnPosition: {x: 0, y: 0, z: 0}
+    core:
+      characterName: Worm
+      shopPrice: 250
+      shopSprite: {fileID: -1848779878077722717, guid: 6722932ea56f49043860d844cfe19d2d, type: 3}
+      sprite: {fileID: -1848779878077722717, guid: 6722932ea56f49043860d844cfe19d2d, type: 3}
+      displayScale: 2
+      tintColor: {r: 1, g: 1, b: 1, a: 1}
+      maxHealth: 100
+      maxShield: 50
+      shieldRegenRate: 5
+      moveSpeed: 6
+      dodgeSpeedMultiplier: 1.5
+      attackSpeedMultiplier: 1
+      critChance: 0.05
+      critDamageMultiplier: 1.5
+      damageMultiplier: 1
+      burrowDuration: 3
+      burrowCooldown: 8
+      burrowDamageReduction: 1
+      knockbackResistance: 0
+      lifesteal: 0
+      invulnerabilityFrames: 0.1
+    startingWeapon:
+      type: 0
+      index: 0
+    handSlots:
+    - localPosition: {x: 0.07, y: -0.33, z: 0}
+      startingWeapon:
+        type: 0
+        index: 0
+    - localPosition: {x: 0.6, y: -0.31, z: 0}
+      startingWeapon:
+        type: 3
+        index: -1
+    - localPosition: {x: 0, y: -0.53, z: 0}
+      startingWeapon:
+        type: 3
+        index: -1
+    - localPosition: {x: 0.6, y: -0.58, z: 0}
+      startingWeapon:
+        type: 3
+        index: -1
+    - localPosition: {x: -0.58, y: -0.38, z: 0}
+      startingWeapon:
+        type: 3
+        index: -1
+    enemySpawner:
+      attachToPlayer: 1
+      localOffset: {x: 0, y: 0, z: 0}
+      maxSpawnAttempts: 200
+      showSpawnRings: 0
+    animationClips: []
+  defaultCharacterIndex: 0

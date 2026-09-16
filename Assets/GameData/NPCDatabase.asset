@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4a8c1f23b5d4e7093a6b8c9d0e1f2ab, type: 3}
+  m_Name: NPC Database
+  m_EditorClassIdentifier: 
+  characters:
+  - characterId: shopkeeper
+    displayName: Shopkeeper
+    sprite: {fileID: 5053929094747288598, guid: f60b708fd962d3c4a88d0ea5515144e8, type: 3}
+    interactVerb: Shop
+    characterKind: 2
+    useSpawnPlacement: 1
+    spawnPlacement:
+      environmentName: Lobby
+      environmentIndex: -1
+      worldPosition: {x: 4, y: 0, z: 0}
+      requireConditionArea: 0
+      conditionAreaOffset: {x: 0, y: 0}
+      conditionAreaSize: {x: 5, y: 4}
+    hideWhenWrongMap: 1
+    interactRadius: 1.35
+    startsEnabled: 1
+    facePlayerOnInteract: 1
+    interactionRules:
+      repeatPolicy: 0
+      maxInteractions: 3
+      maxPurchases: 1
+    shopOffers:
+    - kind: 0
+      playerIndex: 0
+      weapon:
+        type: 3
+        index: -1
+      unlockedByDefault: 1
+    - kind: 0
+      playerIndex: 1
+      weapon:
+        type: 3
+        index: -1
+      unlockedByDefault: 0
+    - kind: 1
+      playerIndex: 0
+      weapon:
+        type: 0
+        index: 0
+      unlockedByDefault: 0
