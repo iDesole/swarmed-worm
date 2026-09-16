@@ -1,21 +1,11 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-// Swarmed Worm — portfolio demo
 // Copyright (c) 2026 Chase Wilson <chasewilsonbusiness@gmail.com>
-// Source code: MIT. Game assets: All Rights Reserved. See LICENSE, LICENSE-ASSETS, NOTICE.md.
 
 /// <summary>
-/// Central orchestrator for a play session. Spawns the active map, player, and combat systems.
+/// Session orchestrator: databases, environment, player spawn, and hub/combat rules.
 /// </summary>
-/// <remarks>
-/// START HERE when reading the project.
-/// <para><b>Reading order:</b> GameManager → Player / WeaponBase → WaveManager + EnemySpawner → SceneDoorTrigger.</para>
-/// <para><b>Data assets:</b> Assets/GameData/*Database.asset (weapons, enemies, waves, player, interactable NPCs).</para>
-/// <para><b>Awake:</b> load databases → pick start environment → spawn tilemap prefab → apply hub/combat rules.</para>
-/// <para><b>Start:</b> spawn player → wire camera, spawner, and pending door spawn points.</para>
-/// <para>Doors call <see cref="SetStartEnvironmentIndex"/> to hot-swap maps without loading a new Unity scene.</para>
-/// </remarks>
 [DefaultExecutionOrder(-90)]
 public class GameManager : MonoBehaviour
 {

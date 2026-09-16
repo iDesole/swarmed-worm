@@ -3,11 +3,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// Runtime-built HUD: health, wave info, objectives, and game-over overlay.
+/// HUD: health, wave info, objectives, and game-over overlay.
 /// </summary>
-/// <remarks>
-/// Created by <see cref="GameUIBootstrap"/> if missing from the scene. Subscribes to player events and WaveEvents.
-/// </remarks>
 public class GameHUD : MonoBehaviour
 {
     private Player player;
@@ -263,7 +260,7 @@ public class GameHUD : MonoBehaviour
         BuildWaveLabel(canvasGo.transform);
         BuildObjectivePanel(canvasGo.transform);
         BuildGameOverPanel(canvasGo.transform);
-        BuildDemoCopyright(canvasGo.transform);
+        BuildCopyright(canvasGo.transform);
     }
 
     private void ShowGameOver(Player _)
@@ -384,16 +381,16 @@ public class GameHUD : MonoBehaviour
         objectivePanel.SetActive(false);
     }
 
-    private void BuildDemoCopyright(Transform parent)
+    private void BuildCopyright(Transform parent)
     {
-        var panel = CreatePanel(parent, "Demo Copyright", new Vector2(1f, 0f), new Vector2(1f, 0f),
-            new Vector2(-16f, 14f), new Vector2(560f, 24f));
+        var panel = CreatePanel(parent, "Copyright", new Vector2(1f, 0f), new Vector2(1f, 0f),
+            new Vector2(-16f, 14f), new Vector2(280f, 24f));
         panel.GetComponent<RectTransform>().pivot = new Vector2(1f, 0f);
 
         var text = CreateText(panel.transform, "Copyright Text", 14, TextAlignmentOptions.MidlineRight);
         Stretch(text.rectTransform, Vector2.zero, Vector2.one, Vector2.zero, Vector2.zero);
         text.color = new Color(1f, 1f, 1f, 0.45f);
-        text.text = "SWARMED WORM  ·  PORTFOLIO DEMO  ·  © 2026 CHASE WILSON";
+        text.text = "© 2026 Chase Wilson";
     }
 
     private GameObject CreatePanel(Transform parent, string name, Vector2 anchorMin, Vector2 anchorMax,

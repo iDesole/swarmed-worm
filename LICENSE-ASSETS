@@ -1,19 +1,12 @@
 Copyright (c) 2026 Chase Wilson <chasewilsonbusiness@gmail.com>. All rights reserved.
 
-Original game content in this repository — including but not limited to
-sprites, tilesets, animations, concept images, prefabs that encode art,
-and other audiovisual materials under Assets/GameData, Assets/Tilesets,
-and Assets/Resources — is the property of Chase Wilson.
+Original game content in this repository, including sprites, tilesets,
+animations, images, audio, and related assets under Assets/GameData,
+Assets/Tilesets, and Assets/Resources, is the property of Chase Wilson.
 
-You may view these files as part of evaluating this portfolio demo.
+Reproduction, redistribution, or reuse of that content requires prior
+written permission.
 
-You may not copy, redistribute, sell, sublicense, or use the game art or
-other original content in another project, commercial or otherwise, without
-prior written permission.
-
-Placeholder, prototype, and AI-assisted images are included only to
-demonstrate gameplay systems. They are not licensed for reuse.
-
-Original C# under Assets/Scripts and Assets/Editor is separately licensed
-under MIT (see LICENSE). This file does not cover Unity Engine, Unity
-packages, TextMesh Pro, or fonts. See NOTICE.md.
+Source code under Assets/Scripts and Assets/Editor is licensed separately
+under MIT. See LICENSE. Unity Engine, Unity packages, and fonts are
+covered in NOTICE.md.

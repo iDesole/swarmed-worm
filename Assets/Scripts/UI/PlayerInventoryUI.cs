@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 /// <summary>
-/// Brotato-style inventory overlay: weapon row, item grid, artifact row, and stats panel.
+/// Inventory overlay: weapon row, item grid, artifact row, and stats panel.
 /// Toggle with I. Pauses gameplay while open.
 /// </summary>
 public class PlayerInventoryUI : MonoBehaviour
