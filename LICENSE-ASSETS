@@ -14,5 +14,6 @@ prior written permission.
 Placeholder, prototype, and AI-assisted images are included only to
 demonstrate gameplay systems. They are not licensed for reuse.
 
-This file does not cover Unity Engine, Unity packages, TextMesh Pro, or
-fonts. See NOTICE.md.
+Original C# under Assets/Scripts and Assets/Editor is separately licensed
+under MIT (see LICENSE). This file does not cover Unity Engine, Unity
+packages, TextMesh Pro, or fonts. See NOTICE.md.
