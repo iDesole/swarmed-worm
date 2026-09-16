@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 
 // Swarmed Worm — portfolio demo
-// Copyright (c) 2026 Chase Wilson
+// Copyright (c) 2026 Chase Wilson <chasewilsonbusiness@gmail.com>
 // Source code: MIT. Game assets: All Rights Reserved. See LICENSE, LICENSE-ASSETS, NOTICE.md.
 
 /// <summary>

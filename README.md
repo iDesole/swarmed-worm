@@ -116,7 +116,7 @@ Generated folders (`Library/`, `Temp/`, `Logs/`, `obj/`, `UserSettings/`) are gi
 
 ## License and copyright
 
-This is a **portfolio demo**. Copyright © 2026 Chase Wilson.
+This is a **portfolio demo**. Copyright © 2026 Chase Wilson (chasewilsonbusiness@gmail.com).
 
 | What | License |
 | --- | --- |
@@ -135,4 +135,6 @@ Not a shippable product. No audio pass, no production animation set, no save sys
 
 ## Author
 
-**Chase Wilson** — [github.com/iDesole](https://github.com/iDesole)
+**Chase Wilson**  
+[chasewilsonbusiness@gmail.com](mailto:chasewilsonbusiness@gmail.com)  
+[github.com/iDesole](https://github.com/iDesole)
